@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Password Reset</title>
+</head>
+<body>
+    <h1>Reset Password</h1>
+    <form action="{{ url_for('password_reset') }}" method="post">
+        <p>{{ msg }}</p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <input type="submit" value="Reset Password">
+    </form>
+</body>
+</html>

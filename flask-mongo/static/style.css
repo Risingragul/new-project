@@ -1,0 +1,49 @@
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(101, 142, 35); 
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #80238e;
+    border-radius: 0px;
+    background-color: #9AC0CD;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #8e4523; 
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: #238e37; 
+    border-radius: 10px;
+}
+     
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+}
